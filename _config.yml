@@ -3,10 +3,10 @@
 # ---------------------------------------------------------------
 
 # Place your favicon.ico to /source directory.
-favicon: /favicon.ico
+favicon: /img/cs2.png
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Stay hungry, Stay foolish."
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 
 
@@ -27,10 +27,10 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
   archives: /archives
   tags: /tags
+  about: http://moon.nju.edu.cn/people/shuocheng/
   #commonweal: /404.html
 
 
@@ -51,15 +51,12 @@ menu_icons:
 
 
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
-
-
+scheme: Mist
 
 
 # ---------------------------------------------------------------
@@ -78,21 +75,23 @@ sidebar: post
 
 
 # Social links
-# social:
-  #GitHub:
-  #Others:
+social:
+  GitHub: https://github.com/cshuo
+  Weibo: http://weibo.com/2411802345/profile?topnav=1&wvr=6
+  Facebook: https://www.facebook.com/shuo.cheng.92
+  About Me: http://moon.nju.edu.cn/people/shuocheng/
 
 # Social Icons
 social_icons:
   enable: true
   # Icon Mappings
-  GitHub: github
+  GitHub: github 
   Twitter: twitter
   Weibo: weibo
 
 
 # Sidebar Avatar
-#avatar:
+avatar: /img/head.png
 
 
 # Social links
@@ -136,7 +135,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -156,17 +155,17 @@ use_font_lato: true
 # ---------------------------------------------------------------
 
 # MathJax Support
-mathjax:
+mathjax: true
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: tohGixzGcGX4Z7WH1XHp
 
 # Baidu Analytics ID
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: cshuo
 
 # Disqus
 #disqus_shortname:
@@ -207,8 +206,13 @@ facebook_sdk:
 
 
 
-
-
+links_title: Links
+links:
+  MacTalk: http://mclspace.com
+  liutianchi: http://liutianchi.com
+  chuan92: https://chuan92.com
+  answ: http://answ.me
+  monkey: http://monkey-h.github.io
 
 
 

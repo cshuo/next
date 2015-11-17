@@ -1,4 +1,4 @@
-<div class="copyright" >
+<div class="copyright" align="center">
   {% set current = date(Date.now(), "YYYY") %}
   &copy; {% if theme.since and theme.since != current %} {{ theme.since }} - {% endif %}
   <span itemprop="copyrightYear">{{ current }}</span>
@@ -8,15 +8,21 @@
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
 </div>
 
-<div class="powered-by">
+<!--div class="powered-by">
   {{ __('footer.powered', '<a class="theme-link" href="http://hexo.io">Hexo</a>') }}
-</div>
+</div-->
 
-<div class="theme-info">
+<!--div class="theme-info">
   {{ __('footer.theme') }} -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT{% if theme.scheme %}.{{ theme.scheme }}{% endif %}
   </a>
-</div>
+</div-->
 
-{% block footer %}{% endblock %}
+{% block footer %}
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+<div align="center">
+	本站访客数<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>人次
+</div>
+{% endblock %}
