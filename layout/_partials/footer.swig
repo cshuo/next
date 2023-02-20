@@ -20,9 +20,4 @@
 </div-->
 
 {% block footer %}
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-<div align="center">
-	本站访客数<span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span>人次
-</div>
 {% endblock %}
